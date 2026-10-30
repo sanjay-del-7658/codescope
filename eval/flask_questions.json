@@ -1,0 +1,14 @@
+[
+  {"id": "Q1", "question": "How are URL routes registered with a view function?", "relevant": [{"path": "src/flask/sansio/scaffold.py", "symbol": "Scaffold.route"}, {"path": "src/flask/sansio/app.py", "symbol": "App.add_url_rule"}]},
+  {"id": "Q2", "question": "Where is the session cookie signed and saved?", "relevant": [{"path": "src/flask/sessions.py", "symbol": "SecureCookieSessionInterface.get_signing_serializer"}, {"path": "src/flask/sessions.py", "symbol": "SecureCookieSessionInterface.save_session"}]},
+  {"id": "Q3", "question": "How does registering a blueprint on the app work?", "relevant": [{"path": "src/flask/sansio/app.py", "symbol": "App.register_blueprint"}, {"path": "src/flask/sansio/blueprints.py", "symbol": "Blueprint.register"}]},
+  {"id": "Q4", "question": "How is a JSON response created from a dict?", "relevant": [{"path": "src/flask/json/__init__.py", "symbol": "jsonify"}, {"path": "src/flask/json/provider.py", "symbol": "DefaultJSONProvider.response"}]},
+  {"id": "Q5", "question": "Where are HTTP exceptions handled by registered error handlers?", "relevant": [{"path": "src/flask/app.py", "symbol": "Flask.handle_http_exception"}, {"path": "src/flask/app.py", "symbol": "Flask.handle_user_exception"}]},
+  {"id": "Q6", "question": "How does Flask convert a view's return value into a Response object?", "relevant": [{"path": "src/flask/app.py", "symbol": "Flask.make_response"}]},
+  {"id": "Q7", "question": "Where is configuration loaded from a Python file or environment variable?", "relevant": [{"path": "src/flask/config.py", "symbol": "Config.from_pyfile"}, {"path": "src/flask/config.py", "symbol": "Config.from_envvar"}]},
+  {"id": "Q8", "question": "How does the CLI find the application instance to run?", "relevant": [{"path": "src/flask/cli.py", "symbol": "locate_app"}, {"path": "src/flask/cli.py", "symbol": "find_app_by_string"}, {"path": "src/flask/cli.py", "symbol": "find_best_app"}]},
+  {"id": "Q9", "question": "Where are .env files loaded?", "relevant": [{"path": "src/flask/cli.py", "symbol": "load_dotenv"}]},
+  {"id": "Q10", "question": "How are templates rendered with context?", "relevant": [{"path": "src/flask/templating.py", "symbol": "render_template"}]},
+  {"id": "Q11", "question": "Where does request dispatching call before_request functions?", "relevant": [{"path": "src/flask/app.py", "symbol": "Flask.full_dispatch_request"}, {"path": "src/flask/app.py", "symbol": "Flask.preprocess_request"}]},
+  {"id": "Q12", "question": "How are flashed messages stored for the next request?", "relevant": [{"path": "src/flask/helpers.py", "symbol": "flash"}]}
+]

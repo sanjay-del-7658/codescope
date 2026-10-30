@@ -1,0 +1,18 @@
+{
+  "repo_id": "1a0b961b82",
+  "name": "flask",
+  "root": "C:\\Users\\sanja\\Downloads\\codescope-backend\\codescope\\data\\_uploads\\tmpmwtx0a8t\\src-9ea54223\\flask-3.0.3",
+  "created": 1793368334.5462306,
+  "indexed": 79,
+  "skipped": 152,
+  "skipped_by_reason": {
+    "unsupported language": 149,
+    "empty": 3
+  },
+  "languages": {
+    "python": 79
+  },
+  "chunks": 1671,
+  "symbols": 1562,
+  "embedding_backend": "st"
+}
